@@ -79,4 +79,3 @@ def animation_function(i):
 animation = FuncAnimation(figure,func = animation_function,interval = 10)
 plt.show()
 plt.close()
-print(Positions[:,0,0].shape[0])
